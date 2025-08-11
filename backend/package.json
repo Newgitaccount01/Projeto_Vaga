@@ -1,0 +1,14 @@
+{
+  "name": "amazon-scraper-backend",
+  "version": "1.0.0",
+  "description": "Backend simples para scraping de produtos da Amazon usando Bun, Express, axios e JSDOM.",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "bun run index.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.6.8",
+    "jsdom": "^24.0.0"
+  }
+}
